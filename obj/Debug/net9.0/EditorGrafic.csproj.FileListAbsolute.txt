@@ -1,0 +1,15 @@
+C:\DEV_APPS\dotNET basics training\EditorGrafic\bin\Debug\net9.0\EditorGrafic.exe
+C:\DEV_APPS\dotNET basics training\EditorGrafic\bin\Debug\net9.0\EditorGrafic.deps.json
+C:\DEV_APPS\dotNET basics training\EditorGrafic\bin\Debug\net9.0\EditorGrafic.runtimeconfig.json
+C:\DEV_APPS\dotNET basics training\EditorGrafic\bin\Debug\net9.0\EditorGrafic.dll
+C:\DEV_APPS\dotNET basics training\EditorGrafic\bin\Debug\net9.0\EditorGrafic.pdb
+C:\DEV_APPS\dotNET basics training\EditorGrafic\obj\Debug\net9.0\EditorGrafic.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV_APPS\dotNET basics training\EditorGrafic\obj\Debug\net9.0\EditorGrafic.AssemblyInfoInputs.cache
+C:\DEV_APPS\dotNET basics training\EditorGrafic\obj\Debug\net9.0\EditorGrafic.AssemblyInfo.cs
+C:\DEV_APPS\dotNET basics training\EditorGrafic\obj\Debug\net9.0\EditorGrafic.csproj.CoreCompileInputs.cache
+C:\DEV_APPS\dotNET basics training\EditorGrafic\obj\Debug\net9.0\EditorGrafic.sourcelink.json
+C:\DEV_APPS\dotNET basics training\EditorGrafic\obj\Debug\net9.0\EditorGrafic.dll
+C:\DEV_APPS\dotNET basics training\EditorGrafic\obj\Debug\net9.0\refint\EditorGrafic.dll
+C:\DEV_APPS\dotNET basics training\EditorGrafic\obj\Debug\net9.0\EditorGrafic.pdb
+C:\DEV_APPS\dotNET basics training\EditorGrafic\obj\Debug\net9.0\EditorGrafic.genruntimeconfig.cache
+C:\DEV_APPS\dotNET basics training\EditorGrafic\obj\Debug\net9.0\ref\EditorGrafic.dll

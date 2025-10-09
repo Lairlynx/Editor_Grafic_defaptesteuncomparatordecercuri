@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EditorGrafic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfafaf3979005cedb3ab12e144379a1dacf47f0e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0aa1dbcc0a33b6489f2b18e20de81b9c98904bb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EditorGrafic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EditorGrafic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
