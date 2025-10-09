@@ -207,9 +207,16 @@ namespace EditorGrafic
 
         // Elimina din lista toate cercurile care au aria mai mica decat valoarea data
         // Se foloseste metoda RemoveAll cu o conditie pe aria cercului
-        static void eliminaCercuriMaiMiciDecatOArie(List<FormaGeometrica> forme, double aria)
+        static void eliminaCercuriMaiMiciDecatOArie(List<FormaGeometrica> forme, double aria) //Aici am folosit testul de tip
         {
-            forme.RemoveAll(c => c.CalculeazaAria() < aria);
+            forme.RemoveAll(f => {
+                if (f is Cerc c)
+                    return c.CalculeazaAria() < aria;
+                else if (f is Dreptunghi d)
+                    return d.CalculeazaAria() < aria;
+                else
+                    return false;
+            });
         }
 
         // Afiseaza toate cercurile care contin punctul dat ca parametru
@@ -253,10 +260,16 @@ namespace EditorGrafic
             // Elimina formele cu aria mai mica decat 10.0 si afiseaza lista ramasa
             eliminaCercuriMaiMiciDecatOArie(forme, 10.0);
             Console.WriteLine("-> Dupa eliminare forme cu aria < 10.0:");
-            foreach (var cerc in forme)
-                Console.WriteLine(cerc);
-            foreach (var dreptunghi in forme)
-                Console.WriteLine(dreptunghi);
+            foreach (var forma in forme)
+            {
+                if (forma is Cerc)
+                    Console.WriteLine(forma);
+            }
+            foreach (var forma in forme)
+            {
+                if (forma is Dreptunghi)
+                    Console.WriteLine(forma);
+            }
 
             // Afiseaza formele care contin punctul (3,4)
             raporteazaIntersectateCuPunct(forme, new Punct(3, 4));
